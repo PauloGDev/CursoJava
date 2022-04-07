@@ -1,6 +1,0 @@
-package Fundamentos;
-
-import javax.swing.JOptionPane;
-
-public class Inferencia {
-
