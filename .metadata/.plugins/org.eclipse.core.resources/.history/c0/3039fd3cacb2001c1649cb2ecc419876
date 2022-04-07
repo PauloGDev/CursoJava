@@ -1,0 +1,15 @@
+package oo.Composicao.desafio;
+
+public class Item {
+	
+	int quant;
+	double valor;
+	Produto p;
+	
+	Item(Produto produto, int quant){
+		this.quant = quant;
+		this.p = produto;
+		valor = produto.preco;
+	}
+	
+}

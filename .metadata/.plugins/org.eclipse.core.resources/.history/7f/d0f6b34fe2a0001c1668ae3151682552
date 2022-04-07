@@ -1,0 +1,13 @@
+package Fundamentos;
+
+public class Desafio1 {
+
+	public static void main(String[] args){
+		
+		int faren = 50;
+		double formula = 5/9;
+		double result = (faren - 32) * formula;
+		
+		System.out.println(result);
+	}
+}

@@ -1,0 +1,11 @@
+package Fundamentos;
+
+public class DesafioOperacao {
+
+	public static void main(String[] args) {
+		int conta1 = (6* (3 + 2));
+		conta1 = (((int) Math.pow(conta1, 2)) / (3 * 2));
+		int conta2 = ((1 - 5) * (2 - 7) /  2);
+		conta2 = (int)
+	}
+}

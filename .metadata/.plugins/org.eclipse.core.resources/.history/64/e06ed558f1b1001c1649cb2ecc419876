@@ -1,0 +1,19 @@
+package Colecoes;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapa {
+	public static void main(String[] args) {
+		Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1, "Roberto");//Adiciona e substitui caso ja exista
+		usuarios.put(2, "Jorge");
+		usuarios.put(3, "Rebeca");
+		
+		System.out.println(usuarios.keySet());
+		System.out.println(usuarios.values());
+		System.out.println(usuarios.entrySet());
+	}
+
+}

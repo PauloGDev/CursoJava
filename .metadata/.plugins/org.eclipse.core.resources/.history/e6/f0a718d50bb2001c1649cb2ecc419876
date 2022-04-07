@@ -1,0 +1,21 @@
+package oo.Composicao;
+
+import java.util.ArrayList;
+
+public class Compra {
+
+	String cliente;
+	double valor;
+	
+	ArrayList<Item> itens = new ArrayList<Item>();
+	
+	void obterValor() {
+		
+		for( Item valores: itens) {
+			valor += valores.preco;
+			}
+		System.out.println(valor);
+	
+	}
+}
+

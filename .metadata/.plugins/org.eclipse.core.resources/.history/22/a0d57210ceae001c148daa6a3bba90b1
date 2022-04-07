@@ -1,0 +1,15 @@
+package Desafio;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		
+		Pessoa pe1 = new Pessoa("Roberto", 72.5);
+		Comida c1 = new Comida("Bolo", 0.200);
+	}
+	
+
+	static void comer(Pessoa p1, Comida c1) {
+		
+	}
+}

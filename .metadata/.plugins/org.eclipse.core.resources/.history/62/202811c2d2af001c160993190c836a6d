@@ -1,0 +1,14 @@
+package Arrays;
+
+public class ForEachTeste {
+
+	
+	public static void main(String[] args) {
+		double[] notas = { 9.3, 10, 6, 5 };
+		
+		for(double nota : notas) {
+			System.out.println(nota);
+		}
+	}
+	
+}

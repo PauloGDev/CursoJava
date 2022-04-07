@@ -1,0 +1,15 @@
+package Metodos;
+
+public class Usuario {
+
+	String nome;
+	String email;
+	Usuario(){
+		
+	}
+	
+	Usuario(String nome, String email){
+		this.nome = nome;
+		this.email = email;
+	}
+}

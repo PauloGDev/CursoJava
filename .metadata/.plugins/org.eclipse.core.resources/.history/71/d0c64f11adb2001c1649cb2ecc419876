@@ -1,0 +1,21 @@
+package oo.Composicao.desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+
+	ArrayList<Item> itens = new ArrayList<Item>();
+	double somaValor = 0;
+	
+	void AddItens(Produto produto, int quant){
+		itens.add(new Item(produto, quant));
+		
+	}
+	
+	void ComprarItens() {
+		for(Item p: itens) {
+			System.out.println(p.p.nome);
+			}
+	}
+	
+}

@@ -1,0 +1,28 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		double soma = 0;
+		double media = 0;
+		int quant = 0;
+		double nota = 0;
+		
+		while(!(nota < 0)) {
+			quant += 1;
+			soma += nota;
+			System.out.print("Digite a nota do aluno: ");
+			nota = entrada.nextDouble();
+			
+		}
+		
+		media = soma / quant;
+		System.out.printf("Media = %f", media);
+	}
+}
